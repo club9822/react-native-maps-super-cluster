@@ -1,15 +1,51 @@
 {
-  "name": "react-native-maps-super-cluster",
-  "version": "1.6.0",
+  "_from": "react-native-maps-super-cluster@latest",
+  "_id": "react-native-maps-super-cluster@1.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Ncu5hN8VBuXjMeStBK7WBDnb9fGCetx4WP0V69Tw4by4ByI2YZXyhvIqAFabK3ss6uR/hh++bCSuLIXOHRxdKw==",
+  "_location": "/react-native-maps-super-cluster",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-maps-super-cluster@latest",
+    "name": "react-native-maps-super-cluster",
+    "escapedName": "react-native-maps-super-cluster",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-maps-super-cluster/-/react-native-maps-super-cluster-1.6.0.tgz",
+  "_shasum": "ccee4d8815fd90de6eeacbfc413dff4e04fe82ae",
+  "_spec": "react-native-maps-super-cluster@latest",
+  "_where": "/Users/mac/Desktop/react/client-app-react-native",
+  "author": {
+    "name": "Alberto Dallaporta",
+    "email": "alberto.dallaporta@novalab.io",
+    "url": "https://www.linkedin.com/in/ad-novalab/"
+  },
+  "bugs": {
+    "url": "https://github.com/novalabio/react-native-maps-super-cluster/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Leonardo Lusoli",
+      "email": "leonardo.lusoli@novalab.io",
+      "url": "https://www.linkedin.com/in/leonardolusoli/"
+    }
+  ],
+  "dependencies": {
+    "@mapbox/geo-viewport": "^0.4.0",
+    "supercluster": "^6.0.2"
+  },
+  "deprecated": false,
   "description": "A Clustering-enabled map for React Native",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/novalabio/react-native-maps-super-cluster.git"
-  },
+  "homepage": "https://github.com/novalabio/react-native-maps-super-cluster#readme",
   "keywords": [
     "react",
     "react-native",
@@ -22,21 +58,19 @@
     "cluster",
     "clustering"
   ],
-  "author": "Alberto Dallaporta <alberto.dallaporta@novalab.io> (https://www.linkedin.com/in/ad-novalab/)",
-  "contributors": [
-    "Leonardo Lusoli <leonardo.lusoli@novalab.io> (https://www.linkedin.com/in/leonardolusoli/)"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/novalabio/react-native-maps-super-cluster/issues"
-  },
-  "homepage": "https://github.com/novalabio/react-native-maps-super-cluster#readme",
-  "dependencies": {
-    "@mapbox/geo-viewport": "^0.4.0",
-    "supercluster": "^6.0.2"
-  },
+  "main": "index.js",
+  "name": "react-native-maps-super-cluster",
   "peerDependencies": {
     "prop-types": "15.7.2",
     "react-native-maps": "^0.25.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novalabio/react-native-maps-super-cluster.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.6.0"
 }
